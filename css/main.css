@@ -1,0 +1,46 @@
+body {
+    background-image: url(../image/b.jpg);
+}
+
+main {
+    text-align: center;
+}
+
+.a,.b,.c,.d,.e,.f {
+    display: flex;
+}
+
+.bord {
+    width: 630px;
+    border: 2px solid #000;
+    margin: 0 auto;
+}
+
+.cell {
+    width: 90px;
+    height: 90px;
+    border: 2px solid #000;
+    font-size: 54px;
+    font-weight: bold;
+    background-color: #ffffffbb;
+}
+
+p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.judge {
+    font-size: 32px;
+}
+
+button {
+    border: none;
+    outline: none;
+    background: transparent;
+    transform: scale(0.2);
+    position: absolute;
+    left: 60%;
+    top: 78%;
+    display: none;
+}
